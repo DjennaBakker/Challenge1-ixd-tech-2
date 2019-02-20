@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="main.js">
-</head>
-<body>
-	<h1>hoi</h1>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/style.css" rel="stylesheet" />
+
+		<!-- JavaScript link voor codes  -->
+		<!-- Area 1 en 2-->
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<!-- Area 3 -->
+		<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+		
+		<!-- Area 4 -->
+  		<script src="https://www.amcharts.com/lib/4/core.js"></script>
+		<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+		<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+		<title>SpaceX Data Dashboard</title>
+	</head>
+	
+	<body>
+		<!-- header -->
+		<header class="grid-item header">
+		 	<img src="images/SpaceX-Logo.svg">
+		</header>
+		<!-- Area 1 -->
+		<section class="area1">
+			<h1>Voertuig informatie</h1>
+			<div id="chart_div" ></div>
+		</section>
+		<!-- Area 2 -->
+		<section class="area2">
+			<h1>Voorraden</h1>
+			    <div id="top_x_div"></div>
+		</section>
+		<!-- Area 3 -->
+		<section class="area3">
+			<h1>Voertuig omgeving</h1>
+			<div id="chartContainer"></div>
+		</section>
+		<!-- Area 4 -->
+		<section class="area4">
+			<h1>Aantal personen</h1>
+			<div id="chartdiv"></div>
+		</section>
+
+		<script type="text/javascript" src="scripts/script.js"></script>
+	</body>
 </html>
