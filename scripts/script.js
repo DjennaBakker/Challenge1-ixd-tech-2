@@ -22,7 +22,6 @@ function drawChart() {
   var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
 
   chart.draw(data, options);
-
   }
 
 // Code voor de voorraden (area 2)
