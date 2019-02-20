@@ -23,14 +23,6 @@ function drawChart() {
 
   chart.draw(data, options);
 
-  setInterval(function() {
-    data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
-    chart.draw(data, options);
-    }, 250);
-  setInterval(function() {
-    data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
-    chart.draw(data, options);
-    }, 100);
   }
 
 // Code voor de voorraden (area 2)
